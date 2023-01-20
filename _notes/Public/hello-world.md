@@ -1,5 +1,6 @@
 ---
 title: hello world
+feed: show
 date: 20-01-2023
 format: list
 ---
