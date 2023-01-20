@@ -2,7 +2,7 @@
 layout: Post
 permalink: /lists
 title: List of Lists
-feedformat: row
+# feedformat: row
 ---
 
 Pages where I keep different lists.

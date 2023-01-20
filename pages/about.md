@@ -1,3 +1,10 @@
+---
+layout: Post
+permalink: /about
+title: About Me
+# feedformat: row
+---
+
 I am Tina Garg, a third-year undergraduate at IIT Bombay. I am pursuing a BTech in Engineering Physics.
 
 I come from Ghaziabad, a town near New Delhi. I have lived most of my life in different cities across the country. The only region where I have yet to live in is East India. I hope to change that someday.
