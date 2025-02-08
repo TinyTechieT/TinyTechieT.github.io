@@ -1,0 +1,63 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Ensures even spacing */
+    gap: 15px;
+    margin-bottom: 40px;
+  }
+
+// .gallery.videos-3 iframe {
+//     width: calc(33.33% - 10px); /* Adjusted for spacing */
+//     height: 250px; /* Reduce height for uniformity */
+//   }
+
+.gallery.videos-3 iframe {
+    width: 32%; /* Ensures 3 in a row */
+    height: 250px; /* Adjusted for consistency */
+}
+
+// .gallery.shorts-4 iframe {
+//     width: calc(25% - 10px); /* Adjusted for spacing */
+//     height: 500px; /* Adjusted for proportional look */
+//   }
+
+.gallery.shorts-4 iframe {
+    width: 23.5%; /* Ensures 4 in a row */
+    height: 500px; /* Adjusted for proportional look */
+}
+  
+iframe {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+
+/* Responsive Fixes */
+@media (max-width: 1024px) {
+    .gallery.videos-3 iframe {
+        width: 48%; /* 2 per row on medium screens */
+    }
+    .gallery.shorts-4 iframe {
+        width: 48%; /* 2 per row for better spacing */
+    }
+}
+
+@media (max-width: 768px) {
+    .gallery.videos-3 iframe,
+    .gallery.shorts-4 iframe {
+        width: 100%; /* Stacked on small screens */
+    }
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Adjust spacing between image and text */
+  }
+  
+.about-image {
+    width: 150px;  /* Adjust size as needed */
+    height: 150px; /* Keeps image square before rounding */
+    border-radius: 50%; /* Makes it circular */
+    object-fit: cover; /* Ensures the image scales properly */
+    flex-shrink: 0; /* Prevents image from shrinking */
+  }  

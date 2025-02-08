@@ -1,0 +1,107 @@
+/* Dark mode toggle button */
+.dark-mode-toggle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.dark-mode-toggle button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.dark-mode-toggle svg {
+    width: 24px;
+    height: 24px;
+    color: var(--text-color);
+}
+
+/* Dark mode styles */
+body.dark {
+    --background-color: #292828;
+    --text-color: #f1f1f1;
+    --link-color: #c094f6;
+}
+
+body.dark {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+body.dark a {
+    color: var(--link-color);
+}
+
+body.dark h1, body.dark h2, body.dark h3, body.dark h4, body.dark h5, body.dark h6 {
+    color: var(--text-color);
+}
+
+body.dark code {
+    background-color: #383838;
+    color: var(--text-color);
+}
+
+body.dark pre {
+    background-color: #383838;
+    color: var(--text-color);
+}
+
+#dark-mode-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px; /* Adjust size */
+    color: var(--text-color);
+}
+
+#dark-mode-toggle i {
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Light Mode Navbar */
+.site-header {
+    background-color: #ffffff; /* Light background */
+    color: #333333; /* Dark text */
+}
+
+.site-header a {
+    color: #333333; /* Navbar links default */
+    text-decoration: none;
+}
+
+/* Dark Mode Navbar */
+body.dark .site-header {
+    background-color: #292828; /* Dark background */
+    // color: #f1f1f1; /* Light text */
+    color: #828282; /* Light text */
+}
+
+body.dark .site-header a {
+    color: #828282; /* Navbar links light */
+}
+
+body.dark .site-header a:hover {
+    color: #c094f6; /* Light purple hover color */
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Distributes text and image */
+    gap: 20px; /* Space between text and image */
+    text-align: left;
+  }
+  
+.about-image {
+    width: 200px;  /* Adjust size as needed */
+    height: 230px; /* Keeps image square before rounding */
+    border-radius: 50%; /* Makes it circular */
+    object-fit: cover; /* Ensures the image scales properly */
+    flex-shrink: 0; /* Prevents image from shrinking */
+  } 

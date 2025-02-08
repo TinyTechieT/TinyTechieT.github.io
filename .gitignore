@@ -1,0 +1,23 @@
+# macOS system files
+.DS_Store
+._*
+
+# Jekyll and Git files
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+
+# Logs and temp files
+*.log
+*.tmp
+*.pid
+*.sw?
+
+.Trashes
+*.swp
+*.swo
+.fseventsd
+Spotlight-V100
+TemporaryItems
