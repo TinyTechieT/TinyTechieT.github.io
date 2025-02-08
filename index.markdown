@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Blog
-permalink: /blog/
+permalink: /
 ---
 
 Welcome to my website! This is where you'll see blog posts from me very soon!
