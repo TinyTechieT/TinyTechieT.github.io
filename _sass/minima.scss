@@ -51,3 +51,24 @@ $on-laptop:        800px !default;
   "minima/custom-styles"
 ;
 
+input[type="email"] {
+  width: 250px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+button {
+  background-color: #FF671D; /* Substack orange */
+  color: white;
+  padding: 11px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #E55B17;
+}
